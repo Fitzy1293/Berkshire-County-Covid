@@ -43,18 +43,18 @@ def plotCovid(rows):
 
     fig = plt.figure()
 
-    ax1 = fig.add_subplot(gs[0, 0]) # row 0, col 0
+    ax1 = fig.add_subplot(gs[0, 1]) # row 0, col 0
     ax1.plot(cases, 'r.-')
     ax1.set(xlabel='Days since 3/8/2020', ylabel='Cases',
            title='Berkshire County, MA - COVID-19 cases')
 
-    ax2 = fig.add_subplot(gs[0, 1]) # row 0, col 1
+    ax2 = fig.add_subplot(gs[1, 1]) # row 0, col 1
     ax2.plot(deaths, 'm.')
     ax2.set(xlabel='Days since 3/8/2020', ylabel='Total deaths',
            title='Berkshire County, MA - COVID-19 deaths')
     ax2.plot([0,1])
 
-    ax3 = fig.add_subplot(gs[1, :]) # row 1, span all columns
+    ax3 = fig.add_subplot(gs[:, 0]) # row 1, span all columns
     ax3.plot(cases, 'r')
     ax3.plot(deaths, 'm')
     plt.fill_between(np.arange(0, len(cases)), deaths, cases,
@@ -66,7 +66,7 @@ def plotCovid(rows):
                  color='m',       # The outline color
                  alpha=0.2)
 
-    ax3.set(xlabel='Days since 3/8/2020', ylabel='COVID-19 event',
+    ax3.set(xlabel='Days since 3/8/2020', ylabel='COVID-19 cases and deaths',
            title=f'COVID-19 Tracking\nBerkshire County, MA\n3/8/2020 - {date}')
 
 
