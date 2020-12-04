@@ -1,3 +1,7 @@
+# Berkshire County, Massachusetts COVID-19 data
+
+[Using the New York Time's covid tracker](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
+
 |            |                  |                | 
 |------------|------------------|----------------| 
 | Date       | Cases            | Deaths         | 
