@@ -2,6 +2,8 @@
 
 [Using the New York Time's covid tracker](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
+![Imgur](https://i.imgur.com/CrzzuEZ.png)
+
 |            |                  |                | 
 |------------|------------------|----------------| 
 | Date       | Cases            | Deaths         | 
