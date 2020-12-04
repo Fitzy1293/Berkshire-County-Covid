@@ -1,243 +1,243 @@
-|            |                                   |                                    | 
-|------------|-----------------------------------|------------------------------------| 
-| Date       | Case Data                         | Death Data                         | 
-| 12/2/2020  | Cases: 1728    Change: 83         | Deaths: 65    Change: 1            | 
-| 12/1/2020  | Cases: 1645    Change: 43         | Deaths: 64    Change: 1            | 
-| 11/30/2020 | Cases: 1602    Change: 2          | Deaths: 63    Change: 2            | 
-| 11/29/2020 | Cases: 1600    Change: 69         | Deaths: 61    Change: 6            | 
-| 11/28/2020 | Cases: 1531    Change: 65         | Deaths: 55    Change: 1            | 
-| 11/27/2020 | Cases: 1466    Change: 43         | Deaths: 54    Change: 1            | 
-| 11/25/2020 | Cases: 1423    Change: 64         | Deaths: 53    Change: 1            | 
-| 11/24/2020 | Cases: 1359    Change: 82         | Deaths: 52    Change: 0            | 
-| 11/23/2020 | Cases: 1277    Change: 17         | Deaths: 52    Change: 0            | 
-| 11/22/2020 | Cases: 1260    Change: 15         | Deaths: 52    Change: 0            | 
-| 11/21/2020 | Cases: 1245    Change: 44         | Deaths: 52    Change: 0            | 
-| 11/20/2020 | Cases: 1201    Change: 19         | Deaths: 52    Change: 0            | 
-| 11/19/2020 | Cases: 1182    Change: 31         | Deaths: 52    Change: 0            | 
-| 11/18/2020 | Cases: 1151    Change: 50         | Deaths: 52    Change: 0            | 
-| 11/17/2020 | Cases: 1101    Change: 29         | Deaths: 52    Change: 0            | 
-| 11/16/2020 | Cases: 1072    Change: 45         | Deaths: 52    Change: 0            | 
-| 11/15/2020 | Cases: 1027    Change: 6          | Deaths: 52    Change: 0            | 
-| 11/14/2020 | Cases: 1021    Change: 20         | Deaths: 52    Change: 0            | 
-| 11/13/2020 | Cases: 1001    Change: 19         | Deaths: 52    Change: 0            | 
-| 11/12/2020 | Cases: 982    Change: 29          | Deaths: 52    Change: 0            | 
-| 11/11/2020 | Cases: 953    Change: 50          | Deaths: 52    Change: 0            | 
-| 11/10/2020 | Cases: 903    Change: 42          | Deaths: 52    Change: 0            | 
-| 11/9/2020  | Cases: 861    Change: 16          | Deaths: 52    Change: 0            | 
-| 11/8/2020  | Cases: 845    Change: 7           | Deaths: 52    Change: 0            | 
-| 11/7/2020  | Cases: 838    Change: 9           | Deaths: 52    Change: 0            | 
-| 11/6/2020  | Cases: 829    Change: 11          | Deaths: 52    Change: 0            | 
-| 11/5/2020  | Cases: 818    Change: 4           | Deaths: 52    Change: 0            | 
-| 11/4/2020  | Cases: 814    Change: 6           | Deaths: 52    Change: 0            | 
-| 11/3/2020  | Cases: 808    Change: 5           | Deaths: 52    Change: 0            | 
-| 11/2/2020  | Cases: 803    Change: 14          | Deaths: 52    Change: 0            | 
-| 11/1/2020  | Cases: 789    Change: 5           | Deaths: 52    Change: 0            | 
-| 10/31/2020 | Cases: 784    Change: 1           | Deaths: 52    Change: 0            | 
-| 10/30/2020 | Cases: 783    Change: 2           | Deaths: 52    Change: 0            | 
-| 10/29/2020 | Cases: 781    Change: 1           | Deaths: 52    Change: 0            | 
-| 10/28/2020 | Cases: 780    Change: 6           | Deaths: 52    Change: 0            | 
-| 10/27/2020 | Cases: 774    Change: 9           | Deaths: 52    Change: 1            | 
-| 10/26/2020 | Cases: 765    Change: 4           | Deaths: 51    Change: 0            | 
-| 10/25/2020 | Cases: 761    Change: 10          | Deaths: 51    Change: 0            | 
-| 10/24/2020 | Cases: 751    Change: 4           | Deaths: 51    Change: 0            | 
-| 10/23/2020 | Cases: 747    Change: 3           | Deaths: 51    Change: 0            | 
-| 10/22/2020 | Cases: 744    Change: 2           | Deaths: 51    Change: 0            | 
-| 10/21/2020 | Cases: 742    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/20/2020 | Cases: 742    Change: 2           | Deaths: 51    Change: 0            | 
-| 10/19/2020 | Cases: 740    Change: 4           | Deaths: 51    Change: 0            | 
-| 10/18/2020 | Cases: 736    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/17/2020 | Cases: 736    Change: 1           | Deaths: 51    Change: 0            | 
-| 10/16/2020 | Cases: 735    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/15/2020 | Cases: 735    Change: 2           | Deaths: 51    Change: 0            | 
-| 10/14/2020 | Cases: 733    Change: 1           | Deaths: 51    Change: 0            | 
-| 10/13/2020 | Cases: 732    Change: 2           | Deaths: 51    Change: 0            | 
-| 10/12/2020 | Cases: 730    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/11/2020 | Cases: 730    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/10/2020 | Cases: 730    Change: 1           | Deaths: 51    Change: 0            | 
-| 10/9/2020  | Cases: 729    Change: 3           | Deaths: 51    Change: 0            | 
-| 10/8/2020  | Cases: 726    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/7/2020  | Cases: 726    Change: 1           | Deaths: 51    Change: 0            | 
-| 10/6/2020  | Cases: 725    Change: 0           | Deaths: 51    Change: 0            | 
-| 10/5/2020  | Cases: 725    Change: 2           | Deaths: 51    Change: 1            | 
-| 10/4/2020  | Cases: 723    Change: 5           | Deaths: 50    Change: 0            | 
-| 10/3/2020  | Cases: 718    Change: 0           | Deaths: 50    Change: 0            | 
-| 10/2/2020  | Cases: 718    Change: 2           | Deaths: 50    Change: 0            | 
-| 10/1/2020  | Cases: 716    Change: 0           | Deaths: 50    Change: 0            | 
-| 9/30/2020  | Cases: 716    Change: 0           | Deaths: 50    Change: 0            | 
-| 9/29/2020  | Cases: 717    Change: 4           | Deaths: 50    Change: 0            | 
-| 9/28/2020  | Cases: 713    Change: 2           | Deaths: 50    Change: 1            | 
-| 9/27/2020  | Cases: 711    Change: 4           | Deaths: 49    Change: 0            | 
-| 9/26/2020  | Cases: 707    Change: 0           | Deaths: 49    Change: 0            | 
-| 9/25/2020  | Cases: 707    Change: 2           | Deaths: 49    Change: 0            | 
-| 9/24/2020  | Cases: 705    Change: 0           | Deaths: 49    Change: 0            | 
-| 9/23/2020  | Cases: 706    Change: 2           | Deaths: 49    Change: 0            | 
-| 9/22/2020  | Cases: 704    Change: 2           | Deaths: 49    Change: 0            | 
-| 9/21/2020  | Cases: 702    Change: 1           | Deaths: 49    Change: 0            | 
-| 9/20/2020  | Cases: 701    Change: 0           | Deaths: 49    Change: 0            | 
-| 9/19/2020  | Cases: 701    Change: 0           | Deaths: 49    Change: 0            | 
-| 9/18/2020  | Cases: 702    Change: 10          | Deaths: 49    Change: 0            | 
-| 9/17/2020  | Cases: 692    Change: 2           | Deaths: 49    Change: 0            | 
-| 9/16/2020  | Cases: 690    Change: 3           | Deaths: 49    Change: 2            | 
-| 9/15/2020  | Cases: 687    Change: 2           | Deaths: 47    Change: 0            | 
-| 9/14/2020  | Cases: 685    Change: 2           | Deaths: 47    Change: 0            | 
-| 9/13/2020  | Cases: 683    Change: 2           | Deaths: 47    Change: 1            | 
-| 9/12/2020  | Cases: 681    Change: 2           | Deaths: 46    Change: 0            | 
-| 9/11/2020  | Cases: 679    Change: 2           | Deaths: 46    Change: 0            | 
-| 9/10/2020  | Cases: 677    Change: 1           | Deaths: 46    Change: 0            | 
-| 9/9/2020   | Cases: 676    Change: 4           | Deaths: 46    Change: 0            | 
-| 9/8/2020   | Cases: 672    Change: 0           | Deaths: 46    Change: 0            | 
-| 9/7/2020   | Cases: 672    Change: 2           | Deaths: 46    Change: 0            | 
-| 9/6/2020   | Cases: 670    Change: 0           | Deaths: 46    Change: 0            | 
-| 9/5/2020   | Cases: 672    Change: 3           | Deaths: 46    Change: 0            | 
-| 9/4/2020   | Cases: 669    Change: 0           | Deaths: 46    Change: 0            | 
-| 9/3/2020   | Cases: 669    Change: 4           | Deaths: 46    Change: 0            | 
-| 9/2/2020   | Cases: 665    Change: 0           | Deaths: 46    Change: 0            | 
-| 9/1/2020   | Cases: 665    Change: 3           | Deaths: 46    Change: 0            | 
-| 8/31/2020  | Cases: 662    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/30/2020  | Cases: 661    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/29/2020  | Cases: 660    Change: 5           | Deaths: 46    Change: 0            | 
-| 8/28/2020  | Cases: 655    Change: 4           | Deaths: 46    Change: 0            | 
-| 8/27/2020  | Cases: 651    Change: 3           | Deaths: 46    Change: 0            | 
-| 8/26/2020  | Cases: 648    Change: 3           | Deaths: 46    Change: 0            | 
-| 8/25/2020  | Cases: 645    Change: 4           | Deaths: 46    Change: 0            | 
-| 8/24/2020  | Cases: 641    Change: 8           | Deaths: 46    Change: 0            | 
-| 8/22/2020  | Cases: 633    Change: 0           | Deaths: 46    Change: 0            | 
-| 8/21/2020  | Cases: 634    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/20/2020  | Cases: 633    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/19/2020  | Cases: 632    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/31/2020  | Cases: 662    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/30/2020  | Cases: 661    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/29/2020  | Cases: 660    Change: 5           | Deaths: 46    Change: 0            | 
-| 8/28/2020  | Cases: 655    Change: 4           | Deaths: 46    Change: 0            | 
-| 8/27/2020  | Cases: 651    Change: 3           | Deaths: 46    Change: 0            | 
-| 8/26/2020  | Cases: 648    Change: 3           | Deaths: 46    Change: 0            | 
-| 8/25/2020  | Cases: 645    Change: 4           | Deaths: 46    Change: 0            | 
-| 8/24/2020  | Cases: 641    Change: 8           | Deaths: 46    Change: 0            | 
-| 8/22/2020  | Cases: 633    Change: 0           | Deaths: 46    Change: 0            | 
-| 8/21/2020  | Cases: 634    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/20/2020  | Cases: 633    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/19/2020  | Cases: 632    Change: 1           | Deaths: 46    Change: 0            | 
-| 8/18/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/17/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/16/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/15/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/14/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/13/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/12/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/11/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/10/2020  | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/9/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/8/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/7/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/6/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/5/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/4/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/3/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/2/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 8/1/2020   | Cases: missing    Change: missing | Deaths: missing    Change: missing | 
-| 7/31/2020  | Cases: 653    Change: 5           | Deaths: 46    Change: 0            | 
-| 7/30/2020  | Cases: 648    Change: 0           | Deaths: 46    Change: 1            | 
-| 7/29/2020  | Cases: 648    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/28/2020  | Cases: 647    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/27/2020  | Cases: 645    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/26/2020  | Cases: 643    Change: 5           | Deaths: 45    Change: 0            | 
-| 7/25/2020  | Cases: 638    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/24/2020  | Cases: 636    Change: 7           | Deaths: 45    Change: 0            | 
-| 7/23/2020  | Cases: 629    Change: 3           | Deaths: 45    Change: 0            | 
-| 7/22/2020  | Cases: 626    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/21/2020  | Cases: 625    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/20/2020  | Cases: 624    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/19/2020  | Cases: 623    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/18/2020  | Cases: 622    Change: 4           | Deaths: 45    Change: 0            | 
-| 7/17/2020  | Cases: 618    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/16/2020  | Cases: 616    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/15/2020  | Cases: 615    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/14/2020  | Cases: 615    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/13/2020  | Cases: 615    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/12/2020  | Cases: 613    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/11/2020  | Cases: 611    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/10/2020  | Cases: 610    Change: 1           | Deaths: 45    Change: 0            | 
-| 7/9/2020   | Cases: 609    Change: 5           | Deaths: 45    Change: 0            | 
-| 7/8/2020   | Cases: 604    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/7/2020   | Cases: 604    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/6/2020   | Cases: 604    Change: 2           | Deaths: 45    Change: 0            | 
-| 7/5/2020   | Cases: 602    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/4/2020   | Cases: 602    Change: 0           | Deaths: 45    Change: 0            | 
-| 7/3/2020   | Cases: 602    Change: 2           | Deaths: 45    Change: 1            | 
-| 7/2/2020   | Cases: 600    Change: 3           | Deaths: 44    Change: 0            | 
-| 7/1/2020   | Cases: 597    Change: 3           | Deaths: 44    Change: 0            | 
-| 6/30/2020  | Cases: 594    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/29/2020  | Cases: 594    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/28/2020  | Cases: 594    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/27/2020  | Cases: 594    Change: 2           | Deaths: 44    Change: 0            | 
-| 6/26/2020  | Cases: 592    Change: 1           | Deaths: 44    Change: 0            | 
-| 6/25/2020  | Cases: 591    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/24/2020  | Cases: 591    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/23/2020  | Cases: 591    Change: 0           | Deaths: 44    Change: 0            | 
-| 6/22/2020  | Cases: 591    Change: 1           | Deaths: 44    Change: 0            | 
-| 6/21/2020  | Cases: 590    Change: 4           | Deaths: 44    Change: 0            | 
-| 6/20/2020  | Cases: 586    Change: 1           | Deaths: 44    Change: 0            | 
-| 6/19/2020  | Cases: 585    Change: 1           | Deaths: 44    Change: 2            | 
-| 6/18/2020  | Cases: 584    Change: 2           | Deaths: 42    Change: 0            | 
-| 6/17/2020  | Cases: 582    Change: 4           | Deaths: 42    Change: 0            | 
-| 6/16/2020  | Cases: 578    Change: -1          | Deaths: 42    Change: 0            | 
-| 6/15/2020  | Cases: 579    Change: -1          | Deaths: 42    Change: 0            | 
-| 6/14/2020  | Cases: 580    Change: 0           | Deaths: 42    Change: 0            | 
-| 6/13/2020  | Cases: 580    Change: 5           | Deaths: 42    Change: 0            | 
-| 6/12/2020  | Cases: 575    Change: 0           | Deaths: 42    Change: 1            | 
-| 6/11/2020  | Cases: 575    Change: 1           | Deaths: 41    Change: 0            | 
-| 6/10/2020  | Cases: 574    Change: -1          | Deaths: 41    Change: 0            | 
-| 6/9/2020   | Cases: 575    Change: 0           | Deaths: 41    Change: 0            | 
-| 6/8/2020   | Cases: 575    Change: 1           | Deaths: 41    Change: 1            | 
-| 6/7/2020   | Cases: 574    Change: 1           | Deaths: 40    Change: 0            | 
-| 6/6/2020   | Cases: 573    Change: 2           | Deaths: 40    Change: 0            | 
-| 6/5/2020   | Cases: 571    Change: 3           | Deaths: 40    Change: 0            | 
-| 6/4/2020   | Cases: 568    Change: 2           | Deaths: 40    Change: 0            | 
-| 6/3/2020   | Cases: 566    Change: -2          | Deaths: 40    Change: 0            | 
-| 6/2/2020   | Cases: 568    Change: 1           | Deaths: 40    Change: 0            | 
-| 6/1/2020   | Cases: 567    Change: missing     | Deaths: 40    Change: missing      | 
-| 5/31/2020  | Cases: 567    Change: 0           | Deaths: missing    Change: missing | 
-| 5/30/2020  | Cases: 567    Change: 1           | Deaths: missing    Change: missing | 
-| 5/29/2020  | Cases: 566    Change: 5           | Deaths: missing    Change: missing | 
-| 5/28/2020  | Cases: 561    Change: 1           | Deaths: missing    Change: missing | 
-| 5/27/2020  | Cases: 560    Change: 2           | Deaths: missing    Change: missing | 
-| 5/26/2020  | Cases: 558    Change: 14          | Deaths: missing    Change: missing | 
-| 5/25/2020  | Cases: 544    Change: 3           | Deaths: missing    Change: missing | 
-| 5/24/2020  | Cases: 541    Change: 5           | Deaths: missing    Change: missing | 
-| 5/23/2020  | Cases: 536    Change: 5           | Deaths: missing    Change: missing | 
-| 5/22/2020  | Cases: 531    Change: 2           | Deaths: missing    Change: missing | 
-| 5/21/2020  | Cases: 529    Change: 11          | Deaths: missing    Change: missing | 
-| 5/20/2020  | Cases: 518    Change: 3           | Deaths: missing    Change: missing | 
-| 5/19/2020  | Cases: 515    Change: 1           | Deaths: missing    Change: missing | 
-| 5/18/2020  | Cases: 514    Change: 1           | Deaths: missing    Change: missing | 
-| 5/17/2020  | Cases: 513    Change: 2           | Deaths: missing    Change: missing | 
-| 5/16/2020  | Cases: 511    Change: 6           | Deaths: missing    Change: missing | 
-| 5/15/2020  | Cases: 505    Change: 3           | Deaths: missing    Change: missing | 
-| 5/14/2020  | Cases: 502    Change: 4           | Deaths: missing    Change: missing | 
-| 5/13/2020  | Cases: 498    Change: 1           | Deaths: missing    Change: missing | 
-| 5/12/2020  | Cases: 497    Change: 8           | Deaths: missing    Change: missing | 
-| 5/11/2020  | Cases: 489    Change: 3           | Deaths: missing    Change: missing | 
-| 5/10/2020  | Cases: 486    Change: 3           | Deaths: missing    Change: missing | 
-| 5/9/2020   | Cases: 483    Change: 1           | Deaths: missing    Change: missing | 
-| 5/8/2020   | Cases: 482    Change: 8           | Deaths: missing    Change: missing | 
-| 5/7/2020   | Cases: 474    Change: 5           | Deaths: missing    Change: missing | 
-| 5/6/2020   | Cases: 469    Change: 5           | Deaths: missing    Change: missing | 
-| 5/5/2020   | Cases: 464    Change: 4           | Deaths: missing    Change: missing | 
-| 5/4/2020   | Cases: 460    Change: 2           | Deaths: missing    Change: missing | 
-| 5/3/2020   | Cases: 458    Change: 3           | Deaths: missing    Change: missing | 
-| 5/2/2020   | Cases: 455    Change: 4           | Deaths: missing    Change: missing | 
-| 5/1/2020   | Cases: 451    Change: 2           | Deaths: missing    Change: missing | 
-| 4/30/2020  | Cases: 449    Change: 2           | Deaths: missing    Change: missing | 
-| 4/29/2020  | Cases: 447    Change: 10          | Deaths: missing    Change: missing | 
-| 4/28/2020  | Cases: 437    Change: 2           | Deaths: missing    Change: missing | 
-| 4/27/2020  | Cases: 435    Change: 0           | Deaths: missing    Change: missing | 
-| 4/26/2020  | Cases: 435    Change: 3           | Deaths: missing    Change: missing | 
-| 4/25/2020  | Cases: 432    Change: 0           | Deaths: missing    Change: missing | 
-| 4/24/2020  | Cases: 432    Change: 7           | Deaths: missing    Change: missing | 
-| 4/23/2020  | Cases: 425    Change: 14          | Deaths: missing    Change: missing | 
-| 4/22/2020  | Cases: 411    Change: 0           | Deaths: missing    Change: missing | 
-| 4/21/2020  | Cases: 411    Change: 17          | Deaths: missing    Change: missing | 
-| 4/20/2020  | Cases: 394    Change: 0           | Deaths: missing    Change: missing | 
-| 4/19/2020  | Cases: 394    Change: 2           | Deaths: missing    Change: missing | 
-| 4/18/2020  | Cases: 392    Change: 2           | Deaths: missing    Change: missing | 
-| 4/17/2020  | Cases: 390    Change: missing     | Deaths: missing    Change: missing | 
+|            |                          |                          | 
+|------------|--------------------------|--------------------------| 
+| Date       | Case Data                | Death Data               | 
+| 12/2/2020  | 1728 ==> diff=83         | 65 ==> diff=1            | 
+| 12/1/2020  | 1645 ==> diff=43         | 64 ==> diff=1            | 
+| 11/30/2020 | 1602 ==> diff=2          | 63 ==> diff=2            | 
+| 11/29/2020 | 1600 ==> diff=69         | 61 ==> diff=6            | 
+| 11/28/2020 | 1531 ==> diff=65         | 55 ==> diff=1            | 
+| 11/27/2020 | 1466 ==> diff=43         | 54 ==> diff=1            | 
+| 11/25/2020 | 1423 ==> diff=64         | 53 ==> diff=1            | 
+| 11/24/2020 | 1359 ==> diff=82         | 52 ==> diff=0            | 
+| 11/23/2020 | 1277 ==> diff=17         | 52 ==> diff=0            | 
+| 11/22/2020 | 1260 ==> diff=15         | 52 ==> diff=0            | 
+| 11/21/2020 | 1245 ==> diff=44         | 52 ==> diff=0            | 
+| 11/20/2020 | 1201 ==> diff=19         | 52 ==> diff=0            | 
+| 11/19/2020 | 1182 ==> diff=31         | 52 ==> diff=0            | 
+| 11/18/2020 | 1151 ==> diff=50         | 52 ==> diff=0            | 
+| 11/17/2020 | 1101 ==> diff=29         | 52 ==> diff=0            | 
+| 11/16/2020 | 1072 ==> diff=45         | 52 ==> diff=0            | 
+| 11/15/2020 | 1027 ==> diff=6          | 52 ==> diff=0            | 
+| 11/14/2020 | 1021 ==> diff=20         | 52 ==> diff=0            | 
+| 11/13/2020 | 1001 ==> diff=19         | 52 ==> diff=0            | 
+| 11/12/2020 | 982 ==> diff=29          | 52 ==> diff=0            | 
+| 11/11/2020 | 953 ==> diff=50          | 52 ==> diff=0            | 
+| 11/10/2020 | 903 ==> diff=42          | 52 ==> diff=0            | 
+| 11/9/2020  | 861 ==> diff=16          | 52 ==> diff=0            | 
+| 11/8/2020  | 845 ==> diff=7           | 52 ==> diff=0            | 
+| 11/7/2020  | 838 ==> diff=9           | 52 ==> diff=0            | 
+| 11/6/2020  | 829 ==> diff=11          | 52 ==> diff=0            | 
+| 11/5/2020  | 818 ==> diff=4           | 52 ==> diff=0            | 
+| 11/4/2020  | 814 ==> diff=6           | 52 ==> diff=0            | 
+| 11/3/2020  | 808 ==> diff=5           | 52 ==> diff=0            | 
+| 11/2/2020  | 803 ==> diff=14          | 52 ==> diff=0            | 
+| 11/1/2020  | 789 ==> diff=5           | 52 ==> diff=0            | 
+| 10/31/2020 | 784 ==> diff=1           | 52 ==> diff=0            | 
+| 10/30/2020 | 783 ==> diff=2           | 52 ==> diff=0            | 
+| 10/29/2020 | 781 ==> diff=1           | 52 ==> diff=0            | 
+| 10/28/2020 | 780 ==> diff=6           | 52 ==> diff=0            | 
+| 10/27/2020 | 774 ==> diff=9           | 52 ==> diff=1            | 
+| 10/26/2020 | 765 ==> diff=4           | 51 ==> diff=0            | 
+| 10/25/2020 | 761 ==> diff=10          | 51 ==> diff=0            | 
+| 10/24/2020 | 751 ==> diff=4           | 51 ==> diff=0            | 
+| 10/23/2020 | 747 ==> diff=3           | 51 ==> diff=0            | 
+| 10/22/2020 | 744 ==> diff=2           | 51 ==> diff=0            | 
+| 10/21/2020 | 742 ==> diff=0           | 51 ==> diff=0            | 
+| 10/20/2020 | 742 ==> diff=2           | 51 ==> diff=0            | 
+| 10/19/2020 | 740 ==> diff=4           | 51 ==> diff=0            | 
+| 10/18/2020 | 736 ==> diff=0           | 51 ==> diff=0            | 
+| 10/17/2020 | 736 ==> diff=1           | 51 ==> diff=0            | 
+| 10/16/2020 | 735 ==> diff=0           | 51 ==> diff=0            | 
+| 10/15/2020 | 735 ==> diff=2           | 51 ==> diff=0            | 
+| 10/14/2020 | 733 ==> diff=1           | 51 ==> diff=0            | 
+| 10/13/2020 | 732 ==> diff=2           | 51 ==> diff=0            | 
+| 10/12/2020 | 730 ==> diff=0           | 51 ==> diff=0            | 
+| 10/11/2020 | 730 ==> diff=0           | 51 ==> diff=0            | 
+| 10/10/2020 | 730 ==> diff=1           | 51 ==> diff=0            | 
+| 10/9/2020  | 729 ==> diff=3           | 51 ==> diff=0            | 
+| 10/8/2020  | 726 ==> diff=0           | 51 ==> diff=0            | 
+| 10/7/2020  | 726 ==> diff=1           | 51 ==> diff=0            | 
+| 10/6/2020  | 725 ==> diff=0           | 51 ==> diff=0            | 
+| 10/5/2020  | 725 ==> diff=2           | 51 ==> diff=1            | 
+| 10/4/2020  | 723 ==> diff=5           | 50 ==> diff=0            | 
+| 10/3/2020  | 718 ==> diff=0           | 50 ==> diff=0            | 
+| 10/2/2020  | 718 ==> diff=2           | 50 ==> diff=0            | 
+| 10/1/2020  | 716 ==> diff=0           | 50 ==> diff=0            | 
+| 9/30/2020  | 716 ==> diff=0           | 50 ==> diff=0            | 
+| 9/29/2020  | 717 ==> diff=4           | 50 ==> diff=0            | 
+| 9/28/2020  | 713 ==> diff=2           | 50 ==> diff=1            | 
+| 9/27/2020  | 711 ==> diff=4           | 49 ==> diff=0            | 
+| 9/26/2020  | 707 ==> diff=0           | 49 ==> diff=0            | 
+| 9/25/2020  | 707 ==> diff=2           | 49 ==> diff=0            | 
+| 9/24/2020  | 705 ==> diff=0           | 49 ==> diff=0            | 
+| 9/23/2020  | 706 ==> diff=2           | 49 ==> diff=0            | 
+| 9/22/2020  | 704 ==> diff=2           | 49 ==> diff=0            | 
+| 9/21/2020  | 702 ==> diff=1           | 49 ==> diff=0            | 
+| 9/20/2020  | 701 ==> diff=0           | 49 ==> diff=0            | 
+| 9/19/2020  | 701 ==> diff=0           | 49 ==> diff=0            | 
+| 9/18/2020  | 702 ==> diff=10          | 49 ==> diff=0            | 
+| 9/17/2020  | 692 ==> diff=2           | 49 ==> diff=0            | 
+| 9/16/2020  | 690 ==> diff=3           | 49 ==> diff=2            | 
+| 9/15/2020  | 687 ==> diff=2           | 47 ==> diff=0            | 
+| 9/14/2020  | 685 ==> diff=2           | 47 ==> diff=0            | 
+| 9/13/2020  | 683 ==> diff=2           | 47 ==> diff=1            | 
+| 9/12/2020  | 681 ==> diff=2           | 46 ==> diff=0            | 
+| 9/11/2020  | 679 ==> diff=2           | 46 ==> diff=0            | 
+| 9/10/2020  | 677 ==> diff=1           | 46 ==> diff=0            | 
+| 9/9/2020   | 676 ==> diff=4           | 46 ==> diff=0            | 
+| 9/8/2020   | 672 ==> diff=0           | 46 ==> diff=0            | 
+| 9/7/2020   | 672 ==> diff=2           | 46 ==> diff=0            | 
+| 9/6/2020   | 670 ==> diff=0           | 46 ==> diff=0            | 
+| 9/5/2020   | 672 ==> diff=3           | 46 ==> diff=0            | 
+| 9/4/2020   | 669 ==> diff=0           | 46 ==> diff=0            | 
+| 9/3/2020   | 669 ==> diff=4           | 46 ==> diff=0            | 
+| 9/2/2020   | 665 ==> diff=0           | 46 ==> diff=0            | 
+| 9/1/2020   | 665 ==> diff=3           | 46 ==> diff=0            | 
+| 8/31/2020  | 662 ==> diff=1           | 46 ==> diff=0            | 
+| 8/30/2020  | 661 ==> diff=1           | 46 ==> diff=0            | 
+| 8/29/2020  | 660 ==> diff=5           | 46 ==> diff=0            | 
+| 8/28/2020  | 655 ==> diff=4           | 46 ==> diff=0            | 
+| 8/27/2020  | 651 ==> diff=3           | 46 ==> diff=0            | 
+| 8/26/2020  | 648 ==> diff=3           | 46 ==> diff=0            | 
+| 8/25/2020  | 645 ==> diff=4           | 46 ==> diff=0            | 
+| 8/24/2020  | 641 ==> diff=8           | 46 ==> diff=0            | 
+| 8/22/2020  | 633 ==> diff=0           | 46 ==> diff=0            | 
+| 8/21/2020  | 634 ==> diff=1           | 46 ==> diff=0            | 
+| 8/20/2020  | 633 ==> diff=1           | 46 ==> diff=0            | 
+| 8/19/2020  | 632 ==> diff=1           | 46 ==> diff=0            | 
+| 8/31/2020  | 662 ==> diff=1           | 46 ==> diff=0            | 
+| 8/30/2020  | 661 ==> diff=1           | 46 ==> diff=0            | 
+| 8/29/2020  | 660 ==> diff=5           | 46 ==> diff=0            | 
+| 8/28/2020  | 655 ==> diff=4           | 46 ==> diff=0            | 
+| 8/27/2020  | 651 ==> diff=3           | 46 ==> diff=0            | 
+| 8/26/2020  | 648 ==> diff=3           | 46 ==> diff=0            | 
+| 8/25/2020  | 645 ==> diff=4           | 46 ==> diff=0            | 
+| 8/24/2020  | 641 ==> diff=8           | 46 ==> diff=0            | 
+| 8/22/2020  | 633 ==> diff=0           | 46 ==> diff=0            | 
+| 8/21/2020  | 634 ==> diff=1           | 46 ==> diff=0            | 
+| 8/20/2020  | 633 ==> diff=1           | 46 ==> diff=0            | 
+| 8/19/2020  | 632 ==> diff=1           | 46 ==> diff=0            | 
+| 8/18/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/17/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/16/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/15/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/14/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/13/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/12/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/11/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/10/2020  | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/9/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/8/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/7/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/6/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/5/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/4/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/3/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/2/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 8/1/2020   | missing ==> diff=missing | 46 ==> diff=0            | 
+| 7/31/2020  | 653 ==> diff=5           | 46 ==> diff=0            | 
+| 7/30/2020  | 648 ==> diff=0           | 46 ==> diff=1            | 
+| 7/29/2020  | 648 ==> diff=1           | 45 ==> diff=0            | 
+| 7/28/2020  | 647 ==> diff=2           | 45 ==> diff=0            | 
+| 7/27/2020  | 645 ==> diff=2           | 45 ==> diff=0            | 
+| 7/26/2020  | 643 ==> diff=5           | 45 ==> diff=0            | 
+| 7/25/2020  | 638 ==> diff=2           | 45 ==> diff=0            | 
+| 7/24/2020  | 636 ==> diff=7           | 45 ==> diff=0            | 
+| 7/23/2020  | 629 ==> diff=3           | 45 ==> diff=0            | 
+| 7/22/2020  | 626 ==> diff=1           | 45 ==> diff=0            | 
+| 7/21/2020  | 625 ==> diff=1           | 45 ==> diff=0            | 
+| 7/20/2020  | 624 ==> diff=1           | 45 ==> diff=0            | 
+| 7/19/2020  | 623 ==> diff=1           | 45 ==> diff=0            | 
+| 7/18/2020  | 622 ==> diff=4           | 45 ==> diff=0            | 
+| 7/17/2020  | 618 ==> diff=2           | 45 ==> diff=0            | 
+| 7/16/2020  | 616 ==> diff=1           | 45 ==> diff=0            | 
+| 7/15/2020  | 615 ==> diff=0           | 45 ==> diff=0            | 
+| 7/14/2020  | 615 ==> diff=0           | 45 ==> diff=0            | 
+| 7/13/2020  | 615 ==> diff=2           | 45 ==> diff=0            | 
+| 7/12/2020  | 613 ==> diff=2           | 45 ==> diff=0            | 
+| 7/11/2020  | 611 ==> diff=1           | 45 ==> diff=0            | 
+| 7/10/2020  | 610 ==> diff=1           | 45 ==> diff=0            | 
+| 7/9/2020   | 609 ==> diff=5           | 45 ==> diff=0            | 
+| 7/8/2020   | 604 ==> diff=0           | 45 ==> diff=0            | 
+| 7/7/2020   | 604 ==> diff=0           | 45 ==> diff=0            | 
+| 7/6/2020   | 604 ==> diff=2           | 45 ==> diff=0            | 
+| 7/5/2020   | 602 ==> diff=0           | 45 ==> diff=0            | 
+| 7/4/2020   | 602 ==> diff=0           | 45 ==> diff=0            | 
+| 7/3/2020   | 602 ==> diff=2           | 45 ==> diff=1            | 
+| 7/2/2020   | 600 ==> diff=3           | 44 ==> diff=0            | 
+| 7/1/2020   | 597 ==> diff=3           | 44 ==> diff=0            | 
+| 6/30/2020  | 594 ==> diff=0           | 44 ==> diff=0            | 
+| 6/29/2020  | 594 ==> diff=0           | 44 ==> diff=0            | 
+| 6/28/2020  | 594 ==> diff=0           | 44 ==> diff=0            | 
+| 6/27/2020  | 594 ==> diff=2           | 44 ==> diff=0            | 
+| 6/26/2020  | 592 ==> diff=1           | 44 ==> diff=0            | 
+| 6/25/2020  | 591 ==> diff=0           | 44 ==> diff=0            | 
+| 6/24/2020  | 591 ==> diff=0           | 44 ==> diff=0            | 
+| 6/23/2020  | 591 ==> diff=0           | 44 ==> diff=0            | 
+| 6/22/2020  | 591 ==> diff=1           | 44 ==> diff=0            | 
+| 6/21/2020  | 590 ==> diff=4           | 44 ==> diff=0            | 
+| 6/20/2020  | 586 ==> diff=1           | 44 ==> diff=0            | 
+| 6/19/2020  | 585 ==> diff=1           | 44 ==> diff=2            | 
+| 6/18/2020  | 584 ==> diff=2           | 42 ==> diff=0            | 
+| 6/17/2020  | 582 ==> diff=4           | 42 ==> diff=0            | 
+| 6/16/2020  | 578 ==> diff=-1          | 42 ==> diff=0            | 
+| 6/15/2020  | 579 ==> diff=-1          | 42 ==> diff=0            | 
+| 6/14/2020  | 580 ==> diff=0           | 42 ==> diff=0            | 
+| 6/13/2020  | 580 ==> diff=5           | 42 ==> diff=0            | 
+| 6/12/2020  | 575 ==> diff=0           | 42 ==> diff=1            | 
+| 6/11/2020  | 575 ==> diff=1           | 41 ==> diff=0            | 
+| 6/10/2020  | 574 ==> diff=-1          | 41 ==> diff=0            | 
+| 6/9/2020   | 575 ==> diff=0           | 41 ==> diff=0            | 
+| 6/8/2020   | 575 ==> diff=1           | 41 ==> diff=1            | 
+| 6/7/2020   | 574 ==> diff=1           | 40 ==> diff=0            | 
+| 6/6/2020   | 573 ==> diff=2           | 40 ==> diff=0            | 
+| 6/5/2020   | 571 ==> diff=3           | 40 ==> diff=0            | 
+| 6/4/2020   | 568 ==> diff=2           | 40 ==> diff=0            | 
+| 6/3/2020   | 566 ==> diff=-2          | 40 ==> diff=0            | 
+| 6/2/2020   | 568 ==> diff=1           | 40 ==> diff=0            | 
+| 6/1/2020   | 567 ==> diff=missing     | 40 ==> diff=missing      | 
+| 5/31/2020  | 567 ==> diff=0           | missing ==> diff=missing | 
+| 5/30/2020  | 567 ==> diff=1           | missing ==> diff=missing | 
+| 5/29/2020  | 566 ==> diff=5           | missing ==> diff=missing | 
+| 5/28/2020  | 561 ==> diff=1           | missing ==> diff=missing | 
+| 5/27/2020  | 560 ==> diff=2           | missing ==> diff=missing | 
+| 5/26/2020  | 558 ==> diff=14          | missing ==> diff=missing | 
+| 5/25/2020  | 544 ==> diff=3           | missing ==> diff=missing | 
+| 5/24/2020  | 541 ==> diff=5           | missing ==> diff=missing | 
+| 5/23/2020  | 536 ==> diff=5           | missing ==> diff=missing | 
+| 5/22/2020  | 531 ==> diff=2           | missing ==> diff=missing | 
+| 5/21/2020  | 529 ==> diff=11          | missing ==> diff=missing | 
+| 5/20/2020  | 518 ==> diff=3           | missing ==> diff=missing | 
+| 5/19/2020  | 515 ==> diff=1           | missing ==> diff=missing | 
+| 5/18/2020  | 514 ==> diff=1           | missing ==> diff=missing | 
+| 5/17/2020  | 513 ==> diff=2           | missing ==> diff=missing | 
+| 5/16/2020  | 511 ==> diff=6           | missing ==> diff=missing | 
+| 5/15/2020  | 505 ==> diff=3           | missing ==> diff=missing | 
+| 5/14/2020  | 502 ==> diff=4           | missing ==> diff=missing | 
+| 5/13/2020  | 498 ==> diff=1           | missing ==> diff=missing | 
+| 5/12/2020  | 497 ==> diff=8           | missing ==> diff=missing | 
+| 5/11/2020  | 489 ==> diff=3           | missing ==> diff=missing | 
+| 5/10/2020  | 486 ==> diff=3           | missing ==> diff=missing | 
+| 5/9/2020   | 483 ==> diff=1           | missing ==> diff=missing | 
+| 5/8/2020   | 482 ==> diff=8           | missing ==> diff=missing | 
+| 5/7/2020   | 474 ==> diff=5           | missing ==> diff=missing | 
+| 5/6/2020   | 469 ==> diff=5           | missing ==> diff=missing | 
+| 5/5/2020   | 464 ==> diff=4           | missing ==> diff=missing | 
+| 5/4/2020   | 460 ==> diff=2           | missing ==> diff=missing | 
+| 5/3/2020   | 458 ==> diff=3           | missing ==> diff=missing | 
+| 5/2/2020   | 455 ==> diff=4           | missing ==> diff=missing | 
+| 5/1/2020   | 451 ==> diff=2           | missing ==> diff=missing | 
+| 4/30/2020  | 449 ==> diff=2           | missing ==> diff=missing | 
+| 4/29/2020  | 447 ==> diff=10          | missing ==> diff=missing | 
+| 4/28/2020  | 437 ==> diff=2           | missing ==> diff=missing | 
+| 4/27/2020  | 435 ==> diff=0           | missing ==> diff=missing | 
+| 4/26/2020  | 435 ==> diff=3           | missing ==> diff=missing | 
+| 4/25/2020  | 432 ==> diff=0           | missing ==> diff=missing | 
+| 4/24/2020  | 432 ==> diff=7           | missing ==> diff=missing | 
+| 4/23/2020  | 425 ==> diff=14          | missing ==> diff=missing | 
+| 4/22/2020  | 411 ==> diff=0           | missing ==> diff=missing | 
+| 4/21/2020  | 411 ==> diff=17          | missing ==> diff=missing | 
+| 4/20/2020  | 394 ==> diff=0           | missing ==> diff=missing | 
+| 4/19/2020  | 394 ==> diff=2           | missing ==> diff=missing | 
+| 4/18/2020  | 392 ==> diff=2           | missing ==> diff=missing | 
+| 4/17/2020  | 390 ==> diff=missing     | missing ==> diff=missing | 
