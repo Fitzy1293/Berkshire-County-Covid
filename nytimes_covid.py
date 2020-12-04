@@ -70,7 +70,7 @@ def plotCovid(rows):
            title=f'COVID-19 Tracking\nBerkshire County, MA\n3/8/2020 - {date}')
 
 
-    fig.set_size_inches(15, 15)
+    fig.set_size_inches(30, 15)
     plt.savefig("COVID_plots.png", dpi = 100)
 
 
