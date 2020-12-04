@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 from pprint import pprint
 import traceback
 
@@ -15,9 +17,10 @@ Berkshire county data from:
             7/31/2020 - 4/17/2020
 
 Concatenated County.csv from both zips with just Berkshire county data.
+
 '''
 
-def berkshireRows(file):
+def berkshireRows(file): # Parses CSVs
     head = ['Date', 'County', 'case_diff', 'cases', 'new_deaths', 'deaths']
 
     file = open(file, 'r').read().splitlines()
@@ -25,13 +28,15 @@ def berkshireRows(file):
 
     return rows
 
-def aggregateDays(countyCsv):
-    '''
-    Note: Due to a planned data system upgrade DPH did not publish a COVID-19 Dashboard on Sunday, 8/23.
-    The 8/24 Dashboard includes information reported to DPH over the previous weekend (from 5 p.m. Friday, 8/21 through 8 a.m. Monday, 8/24) and so numbers are higher than usual daily reporting on that 8/24 Dashboard.
+'''
+Note: Due to a planned data system upgrade DPH did not publish a COVID-19 Dashboard on Sunday, 8/23.
+The 8/24 Dashboard includes information reported to DPH over the previous weekend (from 5 p.m. Friday, 8/21 through 8 a.m. Monday, 8/24) and so numbers are higher than usual daily reporting on that 8/24 Dashboard.
 
-    The code below initializes cells with a missing flag for the days with missing attributes.
-    '''
+The code below initializes cells with a missing flag for the days with missing attributes.
+'''
+
+def aggregateDays(countyCsv):
+
 
     rows = berkshireRows(countyCsv)
 
@@ -64,12 +69,14 @@ def getCaseDiff(day, previous, detail='COVID DETAIL'):
                 #print(fixed, diff)
                 return fixed[:4] + [str(diff)] + [fixed[-1]]
         except:
-            print(traceback.print_exc())
+            #print(traceback.print_exc())
             return day
 
     else:
         return day
 
+def mostRecentDay(latestDay):
+    return latestDay[0].replace('/', '-')
 
 def caseDiffs(berkshieCsv): # Getting diff from previous days count.
     days = berkshireRows(berkshieCsv)
@@ -80,14 +87,18 @@ def caseDiffs(berkshieCsv): # Getting diff from previous days count.
             diffReturn = getCaseDiff(day, previous, detail='cases')
             fixedDiffs.append(diffReturn)
         except:
-            print(traceback.extract_exc())
+            pass#print(traceback.extract_exc())
         previous = day
 
-    with open('All_Berkshire_Data_Provided.csv', 'w+') as f:
-        for i in fixedDiffs:
+    fname = f'All_Berkshire_Data_Provided--{mostRecentDay(fixedDiffs[-1])}.csv'
+    with open(fname, 'w+') as f:
+        f.write(','.join(fixedDiffs[0]) + '\n')
+        for i in reversed(fixedDiffs[1:]):
             f.write(','.join(i) + '\n')
 
+    print(f'Normalized row data:\t {fname}')
 
 if __name__ == '__main__':
+    print('Parsing data from https://www.mass.gov/info-details/archive-of-covid-19-cases-in-massachusetts ...')
     aggregateDays('County.csv')
     caseDiffs('Berkshire_covid.csv')
