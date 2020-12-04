@@ -58,18 +58,21 @@ def aggregateDays(countyCsv):
 
 def getCaseDiff(day, previous, detail='COVID DETAIL'):
     missingCt = day.count('missing')
+    if day[0] == '6/1/2020':
+        print(day)
     if missingCt in (2, 3):
         try:
+
             diff = int(day[3]) - int(previous[3])
             fixed = day[:2] + [str(diff)] + day[3:]
-            if missingCt == 3:
+
+            if missingCt == 3 or previous[-1] == 'missing':
                 return fixed
             else:
-                diff = int(fixed[-1]) - int(previous[-1])
-                #print(fixed, diff)
+                diff = int(day[-1]) - int(previous[-1])
                 return fixed[:4] + [str(diff)] + [fixed[-1]]
         except:
-            #print(traceback.print_exc())
+            print(f'{day}\n\t{traceback.print_exc()}')
             return day
 
     else:
@@ -90,11 +93,15 @@ def caseDiffs(berkshieCsv): # Getting diff from previous days count.
             pass#print(traceback.extract_exc())
         previous = day
 
+    head = ['Date', 'Case Data', 'Death Data']
     fname = f'All_Berkshire_Data_Provided--{mostRecentDay(fixedDiffs[-1])}.csv'
     with open(fname, 'w+') as f:
-        f.write(','.join(fixedDiffs[0]) + '\n')
+        f.write(','.join(head) + '\n')
         for i in reversed(fixedDiffs[1:]):
-            f.write(','.join(i) + '\n')
+            f.write(i[0] + ',')
+            f.write(f'{i[-3]} ==> diff={i[-4]}' + ',')
+            f.write(f'{i[-1]} ==> diff={i[-2]}' )
+            f.write('\n')
 
     print(f'Normalized row data:\t {fname}')
 
