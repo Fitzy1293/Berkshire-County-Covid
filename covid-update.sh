@@ -1,8 +1,8 @@
 #!/bin/env bash
-
-commitMessage="$(date +'%m/%d/%Y' | sed 's#/#-#g')"
+python3 nytimes_covid.py -getdata
+commitMessage="$(grep "COVID Update:" head.md | sed 's/\*//g')"
+echo "$commitMessage"
 
 git add .
 git commit -m "Berkshire County COVID update: $commitMessage"
 git push -u origin master
-echo "Commit message: $commitMessage"
