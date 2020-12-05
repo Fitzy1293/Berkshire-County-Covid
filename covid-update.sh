@@ -1,6 +1,6 @@
 #!/bin/env bash
 python3 nytimes_covid.py -getdata
-commitMessage="$(grep "COVID Update:" head.md | sed 's/\*//g')"
+commitMessage="$(grep 'Most Recent Update:' head.md | sed 's/\*//g')"
 echo "$commitMessage"
 
 git add .
