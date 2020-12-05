@@ -80,7 +80,7 @@ def plotCovid(rows):
 
 def csvMdcreate(rows):
     with open('All_Berkshire_Data_Provided.csv', 'w+') as f:
-        for i in finalRows:
+        for i in rows:
             f.write(','.join(i))
             f.write('\n')
 
@@ -118,6 +118,8 @@ if __name__ == '__main__':
         print()
 
     rows = berkshireRows(curledCsv)
+    csvMdcreate(rows)
+    os.system('csvtomd All_Berkshire_Data_Provided.csv > markdown_table.md')
 
     nytDate = dateFormat(rows[-1][0])
 
