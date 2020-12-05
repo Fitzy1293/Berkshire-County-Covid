@@ -5,4 +5,4 @@ echo "$commitMessage"
 
 git add .
 git commit -m "Berkshire County COVID update: $commitMessage"
-git push -u origin master
+git push origin master
