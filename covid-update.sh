@@ -2,7 +2,7 @@
 
 function run {
     date > run_date
-    python3 nytimes_covid.py
+    python3 nytimes_covid.py -getdata
 
     git add .  &&
     git commit -m "Berkshire County COVID update: $(date)" &&
