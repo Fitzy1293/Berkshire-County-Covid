@@ -9,7 +9,6 @@ import matplotlib.gridspec as gridspec
 def berkshireRows(file): # Parses CSVs
     head = ['date','county','state','fips','cases','deaths']
     file = open(file, 'r').read().splitlines()
-
     return [head] + [i.split(',')  for i in file]
 
 def dateFormat(nytDate):
@@ -43,7 +42,6 @@ def plotCovid(rows):
 
     startDate = dateFormat(rows[1][0])
     endDate = dateFormat(rows[-1][0])
-
 
     gs = gridspec.GridSpec(2, 2) # Create 2x2 sub plots
 
@@ -80,18 +78,20 @@ def plotCovid(rows):
 
 def csvMdcreate(rows):
     with open('All_Berkshire_Data_Provided.csv', 'w+') as f:
-        for i in finalRows:
+        for i in rows:
             f.write(','.join(i))
             f.write('\n')
 
 
 # Updates .md formatted table in the
 def updateReadme(readmeDate, nytDate, head=''):
+    os.system('csvtomd All_Berkshire_Data_Provided.csv > markdown_table.md')
+    
     fname = 'README.md'
 
     print(f'Updating markdown_table.md and README.md for {nytDate}')
     print(f'{readmeDate} found in head.md')
-    os.system('csvtomd All_Berkshire_Data_Provided.csv > markdown_table.md')
+
     os.system('cp README.md previous_README.md')
 
     head[2] = f'**Most Recent Update: {nytDate}**'
@@ -118,6 +118,9 @@ if __name__ == '__main__':
         print()
 
     rows = berkshireRows(curledCsv)
+    csvMdcreate(rows)
+    finalRows = [['Date', 'Cases (Total Δ=Daily Change)', 'Deaths (Total Δ=Daily Change)']] + [i for i in reversed(shortenTable(rows))]
+
 
     nytDate = dateFormat(rows[-1][0])
 
@@ -126,12 +129,11 @@ if __name__ == '__main__':
     readmeDate = head[2].split(': ')[-1].strip('**')
     if readmeDate == nytDate and os.path.exists('All_Berkshire_Data_Provided.csv'):
         print(f'README.md date: {readmeDate}')
-        sys.exit('README.md is up to date')
+        print('README.md is up to date')
 
 
     plotCovid(rows)
 
-    finalRows = [['Date', 'Cases (Total Δ=Daily Change)', 'Deaths (Total Δ=Daily Change)']] + [i for i in reversed(shortenTable(rows))]
 
     csvMdcreate(finalRows)
     updateReadme(readmeDate, nytDate, head=head)
