@@ -283,3 +283,4 @@ Date        |  Cases (Total Δ=Daily Change)  |  Deaths (Total Δ=Daily Change)
 03/09/2020  |  5: Δ=4                        |  0: Δ=0
 03/08/2020  |  1: Δ=0                        |  0: Δ=0
 03/07/2020  |  1 Δ=1                         |  0 Δ=0
+

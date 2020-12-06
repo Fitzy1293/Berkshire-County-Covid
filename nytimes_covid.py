@@ -1,12 +1,14 @@
 #!/bin/env python3
 
 from pprint import pprint
-import os, sys
+import os
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-def berkshireRows(file): # Parses CSVs
+
+def berkshireRows(file):  # Parses CSVs
     head = ['date','county','state','fips','cases','deaths']
     file = open(file, 'r').read().splitlines()
     return [head] + [i.split(',')  for i in file]
@@ -76,36 +78,21 @@ def plotCovid(rows):
     fig.set_size_inches(15, 15)
     plt.savefig("COVID_plots.png", dpi = 100)
 
-def csvMdcreate(rows):
+def csvCreate(rows):
     with open('All_Berkshire_Data_Provided.csv', 'w+') as f:
         for i in rows:
             f.write(','.join(i))
             f.write('\n')
 
-
-# Updates .md formatted table in the
-def updateReadme(readmeDate, nytDate, head=''):
-    os.system('csvtomd All_Berkshire_Data_Provided.csv > markdown_table.md')
-    
-    fname = 'README.md'
-
-    print(f'Updating markdown_table.md and README.md for {nytDate}')
-    print(f'{readmeDate} found in head.md')
-
-    os.system('cp README.md previous_README.md')
-
-    head[2] = f'**Most Recent Update: {nytDate}**'
-    headStr = '\n'.join(head)
-    tableStr = '\n'.join(open('markdown_table.md', 'r').read().splitlines())
-
+def updateReadme(nytDate):
     with open('README.md', 'w+') as f: # Don't want to directly write over it.
-        f.write(headStr)
-        f.write('\n\n')
-        f.write(tableStr)
-        f.write('\n')
+        f.write(f'# Berkshire County, Massachusetts COVID-19 data\n\n')
+        f.write(f'**Most Recent Update: {nytDate}**\n\n')
+        f.write('[Using the New York Time\'s covid tracker](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)\n\n')
+        f.write(f'![plots](COVID_plots.png)\n\n')
+        f.write(f'# COVID daily data\n\n')
 
-    with open('head.md', 'w+') as f: # Don't want to directly write over it.
-        f.write(headStr)
+        f.write(''.join(open('markdown_table.md')))
         f.write('\n')
 
 if __name__ == '__main__':
@@ -118,23 +105,18 @@ if __name__ == '__main__':
         print()
 
     rows = berkshireRows(curledCsv)
-    csvMdcreate(rows)
+    plotCovid(rows)
+
     finalRows = [['Date', 'Cases (Total Δ=Daily Change)', 'Deaths (Total Δ=Daily Change)']] + [i for i in reversed(shortenTable(rows))]
+    csvCreate(finalRows)
+    os.system('csvtomd All_Berkshire_Data_Provided.csv > markdown_table.md')
 
 
     nytDate = dateFormat(rows[-1][0])
 
     print(f'Date NYT CSV: {nytDate}')
-    head = open('head.md', 'r').read().splitlines()
-    readmeDate = head[2].split(': ')[-1].strip('**')
-    if readmeDate == nytDate and os.path.exists('All_Berkshire_Data_Provided.csv'):
-        print(f'README.md date: {readmeDate}')
-        print('README.md is up to date')
-
-
-    plotCovid(rows)
-
-
-    csvMdcreate(finalRows)
-    updateReadme(readmeDate, nytDate, head=head)
+    print(f'Updating markdown_table.md and README.md for {nytDate}')
+    os.system('cp README.md previous_README.md')
+    updateReadme(nytDate)
+    print('README.md is up to date')
 
