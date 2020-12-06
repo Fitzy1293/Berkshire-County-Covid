@@ -9,6 +9,7 @@ function run {
     git push origin "$(git status | head -n 1 | sed 's/.* //')"
 }
 
+date > run_date
 run &&
 while true; do
 
