@@ -2,7 +2,7 @@
 
 function run {
 
-    python3 nytimes_covid.py -getdata
+    date > run_date && python3 nytimes_covid.py -getdata &&
 
     git add COVID_plots.png All_Berkshire_Data_Provided.csv README.md run_date &&
     git commit -m "Berkshire County COVID update: $(date)" &&
@@ -11,8 +11,5 @@ function run {
 
 
 while true; do
-
-date > run_date && run && sleep 6h
-
-
+    run && sleep 6h
 done
