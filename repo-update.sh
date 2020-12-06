@@ -1,2 +1,2 @@
 #!/bin/env bash
-nohup ./covid-update.sh > /dev/null 2>&1
+exec nohup ./covid-update.sh > /dev/null 2>&1
