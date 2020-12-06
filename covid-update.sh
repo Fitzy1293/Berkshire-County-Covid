@@ -10,7 +10,7 @@ function run {
 
 
 }
-run  
+run &&  
 while true; do
 
 run
