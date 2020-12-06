@@ -14,7 +14,7 @@ run &&
 while true; do
 
 run
-sleep 5m
+sleep 6h
 
 
 done
