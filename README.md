@@ -1,6 +1,6 @@
 # Berkshire County, Massachusetts COVID-19 data
 
-**Most Recent Update: 12/05/2020**
+**Most Recent Update: 12/06/2020**
 
 [Using the New York Time's covid tracker](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
@@ -10,6 +10,7 @@
 
 Date        |  Cases (Total Δ=Daily Change)  |  Deaths (Total Δ=Daily Change)
 ------------|--------------------------------|-------------------------------
+2020-12-06  |  1954: Δ=51                    |  73: Δ=5
 2020-12-05  |  1903: Δ=100                   |  68: Δ=2
 2020-12-04  |  1803: Δ=23                    |  66: Δ=0
 2020-12-03  |  1780: Δ=52                    |  66: Δ=1
